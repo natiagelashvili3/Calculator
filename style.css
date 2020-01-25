@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: #34495e;
+}
+.menu {
+    float: right;
+    margin-top: 35px;
+    margin-right: 60px;
+}
+.menu a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
