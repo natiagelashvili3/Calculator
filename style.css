@@ -24,8 +24,10 @@ header{
     background: #34495e;
     margin-top: 40px;
     width: 300px;
-    height: 250px;
+    height: 260px;
     display: inline-block;
+    border-radius: 4px;
+    padding-top: 10px;
 }
 .screen{
     background: #828A9B;
@@ -37,7 +39,6 @@ header{
     border-top: 3px solid white;
     border-radius: 4px;
 }
-
 .clear{
     background-color: #7B8D8E;
     display: inline-block;
@@ -47,4 +48,25 @@ header{
     border-radius: 4px;
     line-height: 45px;
     cursor: pointer;
+}
+.numbers-list{
+    margin-top: 20px;
+}
+.numbers-list li {
+    display: inline-block;
+    background: white;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 45px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.numbers-list li:hover{
+    background-color: #44B3C2;
+    color: white;
+    transition: .2s ease;
+}
+#equal{
+    background-color: #F43341;
+    color: white;
 }
